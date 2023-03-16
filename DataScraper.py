@@ -1,7 +1,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from openpyxl import load_workbook
+from openpyxl import load_workbook,Workbook
 
 # Load the input Excel file
 input_path = 'input.xlsx'
